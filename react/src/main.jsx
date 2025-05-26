@@ -5,6 +5,9 @@ import "./index.css";
 import App from "./App.jsx";
 import  Footer2  from "./Footer.jsx";
 
+// Ejemplo de hoy para hacer un encabezado 
+import Encabezado from "./Encabezado.jsx"
+
 const temp = "Buenos días";
 
 function Footer() {
@@ -26,6 +29,7 @@ createRoot(document.getElementById("root")).render(
     <h1>{temp}</h1>
     <Footer />
     <Footer2 />
+    <Encabezado />
   </StrictMode>
 );
 // const temp="Buenos días";
