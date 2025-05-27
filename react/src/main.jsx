@@ -1,12 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-
 import App from "./App.jsx";
 import  Footer2  from "./Footer.jsx";
+import Encabezado from "./Encabezado.jsx";
+import Link_bio from "./Link_bio.jsx";
 
-// Ejemplo de hoy para hacer un encabezado 
-import Encabezado from "./Encabezado.jsx"
+
+
 
 const temp = "Buenos días";
 
@@ -27,9 +28,10 @@ function Footer() {
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <h1>{temp}</h1>
+    <Encabezado />
     <Footer />
     <Footer2 />
-    <Encabezado />
+    <Link_bio />
   </StrictMode>
 );
 // const temp="Buenos días";

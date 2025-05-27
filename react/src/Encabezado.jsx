@@ -1,11 +1,9 @@
 const Encabezado = () => {
-    return
+  return (
     <>
-    <ul>
-        <li>Inicio</li>
-        <li>Sobre mi</li>
-        <li>Portfolio</li>
-        <li>Contacto</li>
-    </ul>
+      <h3>La navegación de la app</h3>
+      <p>Hola navbar</p>
     </>
-}; 
+  );
+};
+export default Encabezado;
