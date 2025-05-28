@@ -1,8 +1,14 @@
 # aprende_react
 
-Pendiente 
+## Ejercitar 
+- funciones de flecha
+
+### Pendiente 
 
 - props
 - hooks
 - components
+
+[] Hacer un bio link 
+
   

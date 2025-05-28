@@ -2,12 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import  Footer2  from "./Footer.jsx";
+import Footer2 from "./Footer.jsx";
 import Encabezado from "./Encabezado.jsx";
-import Link_bio from "./Link_bio.jsx";
-
-
-
+import Link_bio from "./link_bio.jsx";
+import Aside from "./aside.jsx";
+import Ejemplo from "./Ejemplo.jsx";
 
 const temp = "Buenos días";
 
@@ -24,7 +23,7 @@ function Footer() {
 //   );
 // };
 
-// document.querySelector("#root").innerHTML="<h1>{temp}</h1>"
+document.querySelector("#root").innerHTML = "<h1>{temp}</h1>";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <h1>{temp}</h1>
@@ -32,6 +31,8 @@ createRoot(document.getElementById("root")).render(
     <Footer />
     <Footer2 />
     <Link_bio />
+    <Aside />
+    <Ejemplo />
   </StrictMode>
 );
 // const temp="Buenos días";
