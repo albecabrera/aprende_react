@@ -8,7 +8,7 @@ import Link_bio from "./link_bio.jsx";
 import Aside from "./aside.jsx";
 import Ejemplo from "./Ejemplo.jsx";
 
-const temp = "Buenos días";
+const temp1 = "Buenos días";
 
 function Footer() {
   return <h3>Footer aquí</h3>;
@@ -22,19 +22,23 @@ function Footer() {
 //     </>
 //   );
 // };
+const temp = 'Hola Mundo';
+const resultado = "<h1> "+temp+" </h1>";
+const resultado1 = "Hola"+ " mundo";
 
-document.querySelector("#root").innerHTML = "<h1>{temp}</h1>";
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <h1>{temp}</h1>
-    <Encabezado />
-    <Footer />
-    <Footer2 />
-    <Link_bio />
-    <Aside />
-    <Ejemplo />
-  </StrictMode>
-);
+document.getElementById('root').innerHTML = resultado;
+// document.querySelector("#root").innerHTML = "<h1>{temp}</h1>";
+// createRoot(document.getElementById("root")).render(
+//   <StrictMode>
+//     <h1>{temp}</h1>
+//     <Encabezado />
+//     <Footer />
+//     <Footer2 />
+//     <Link_bio />
+//     <Aside />
+//     <Ejemplo />
+//   </StrictMode>
+// );
 // const temp="Buenos días";
 //       // document.querySelector("#root").innerHTML="<h1>{temp}</h1>"
 //       // document.getElementById("root").innerHTML="<h1>"+temp+"</h1>"
